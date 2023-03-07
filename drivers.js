@@ -4,7 +4,7 @@
         phone: "404-918-6900",
         seats: 7,
         occupiedSeats: 5,
-        routeId: 82
+        routeId: 1
     },
 
     {
@@ -12,14 +12,14 @@
         phone: "404-900-2458",
         seats: 5,
         occupiedSeats: 4,
-        routeId: 29
+        routeId: 1
     },
     {
         name: "Jennifer", 
         phone: "404-900-2939",
         seats: 3,
         occupiedSeats: 2,
-        routeId: 59
+        routeId: 2
     },
 
     {
@@ -27,7 +27,7 @@
         phone: "404-392-2032",
         seats: 4,
         occupiedSeats: 4,
-        routeId: 10
+        routeId: 2
     }
 
 

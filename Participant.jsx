@@ -2,7 +2,7 @@ import React from "react"
 import { useState, useRef} from "react"
 
 
-export default function Driver(props) {
+export default function Participant(props) {
 
     const [isOpen, setIsOpen] = useState(false)
     const parentRef = useRef()
@@ -26,9 +26,9 @@ export default function Driver(props) {
                     }
                 >
                     <ul className="content">
-                        <li>Phone: {props.phone}</li>
-                        <li>Seats: {props.seats}</li>
-                        <li>Occupied seats: {props.occupiedSeats}</li>
+                        <li>Age: {props.age}</li>
+                        <li>Driver: {props.driver}</li>
+                        <li>Location: {props.location}</li>
                         <li>Route ID: {props.routeId}</li>
                     </ul>
                 </div>

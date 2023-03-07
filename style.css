@@ -3,10 +3,11 @@ body {
   padding:0;
 }
 
-.main {
+.main-container {
   margin:0;
   display:flex;
   flex-direction:row;
+  justify-content: space-evenly;
   
 }
 
@@ -129,6 +130,8 @@ body {
     width:90px;
     border-radius:5px;
     margin-bottom:0.5em;
+    padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
 
     
 }
@@ -153,6 +156,4 @@ body {
     
 }
 
-.collapsible {
-  margin-left:20px;
-}
+

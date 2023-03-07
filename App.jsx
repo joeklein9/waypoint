@@ -3,6 +3,7 @@ import Navbar from "/Navbar.jsx"
 import Driver from "/Driver.jsx"
 import Participant from "/Participant.jsx"
 import Location from "/Location.jsx"
+import Route from "/Route.jsx"
 import {drivers} from '/drivers.js'
 import {participants} from "/participants.js"
 import { locations } from "./locations"
@@ -78,6 +79,13 @@ const locationsElement = locations.map(location => {
               {locationsElement}
           </div>
         </div>
+      </div>
+
+
+      <div className = "routes-container">
+      <h1 className ="routes-header">Routes</h1>
+        <Route/>
+
       </div>
     
     </>

@@ -116,7 +116,6 @@ body {
 
 .content {
   text-align:left;
-  margin-left:5px;
   list-style:none;
 }
 
@@ -139,6 +138,9 @@ body {
     max-width:150px;
     padding:0.2em;
     border-radius:5px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
   
 
 }
@@ -150,4 +152,7 @@ body {
     transition: height ease 0.3s;
     
 }
-    
+
+.collapsible {
+  margin-left:20px;
+}
